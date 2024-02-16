@@ -1,0 +1,14 @@
+.slides-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36.5vh;
+    margin-top: 40px;
+}
+.slide-image {
+    width: 100%;
+}
+.custom-size {
+    height:auto;
+}
