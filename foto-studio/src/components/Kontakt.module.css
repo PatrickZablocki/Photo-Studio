@@ -1,0 +1,47 @@
+.Kontakt_container {
+    position: relative;
+    margin-top: 200px;
+}
+.Kontakt_container h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(90deg, rgba(12,12,207,0.8435749299719888) 0%, rgba(11,74,77,0.9332107843137255) 35%, rgba(63,174,196,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight:bolder;
+    text-shadow: 25px 25px 25px black;
+}
+.Kontakt_container p{
+    font-size: 2rem;
+}
+.Öffnungszeiten{
+    display: flex;
+    justify-content: center;
+}
+.Studio_container{
+    border: 1px solid rgba(22, 137, 219, 0.59);
+    border-radius: 20px;
+    width: 500px;
+    background: linear-gradient(90deg, rgba(16, 120, 193, 0.414) 0%, rgba(16, 102, 106, 0.714) 35%, rgba(63,174,196,1) 100%);
+}
+.Studio_container h3{
+font-size: 2rem;
+text-shadow: 10px 10px 10px black;
+}
+.Studio_container h4{
+    font-size: 1.5rem;
+}
+.Studio_container p{
+    font-size: 1.25rem;
+}
+.Studio_Image{
+    margin-inline-start: 150px;
+    width: 800px;
+    box-shadow: 15px 15px 15px 5px black;
+}
+.Studio_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

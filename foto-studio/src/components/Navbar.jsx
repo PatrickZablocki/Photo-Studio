@@ -5,16 +5,16 @@ import { getImageUrl } from '../Utils';
 
 const Navbar = () => {
     return (
-        <div className={styles.Navbar_container}>
+        <div id='startseite' className={styles.Navbar_container}>
             <div className={styles.Navbar_content}>
             <img className={styles.Navbar_LogoImage} src={getImageUrl('./LogoImage/logo.png')} alt="" />
                 <div className={styles.Navbar_list}>
                     <ul>
-                        <li><a href="">Startseite</a></li>
-                        <li><a href="">Leistungen</a></li>
-                        <li><a href="">Über Uns</a></li>
-                        <li><a href="">Kontakt</a></li>
-                        <li><a href="">Impressum</a></li>
+                        <li><a href="#startseite">Startseite</a></li>
+                        <li><a href="#welcome">Leistungen</a></li>
+                        <li><a href="#leistung">Über Uns</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                        <li><a href="">impressum</a></li>
                     </ul>
                 </div>
             </div>

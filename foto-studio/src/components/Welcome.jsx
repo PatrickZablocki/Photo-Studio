@@ -5,7 +5,7 @@ import { getImageUrl } from '../Utils';
 
 const Welcome = () => {
     return (
-        <div className={styles.Welcome_container}>
+        <div id='welcome' className={styles.Welcome_container}>
                 <h1 className={styles.Welcome_headline}>Willkommen</h1>
                 <div className={styles.Welcome_contentOne}>
                     <img className={styles.Welcome_LogoImage1} src={getImageUrl('./HomeImage/Home1.png')} alt="" />
